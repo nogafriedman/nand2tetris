@@ -1,0 +1,46 @@
+// This file is part of nand2tetris, as taught in The Hebrew University, and
+// was written by Aviv Yaish. It is an extension to the specifications given
+// [here](https://www.nand2tetris.org) (Shimon Schocken and Noam Nisan, 2017),
+// as allowed by the Creative Common Attribution-NonCommercial-ShareAlike 3.0
+// Unported [License](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+/**
+ * 16-bit left shifter.
+ *
+ * The chip's output is a "left-shift" of the input:
+ * - Every input bit is moved one position to the left
+ * - A new "0" bit is inserted as the new right-most bit
+ *
+ * For example:
+ * ShiftLeft(0000000000000001)=0000000000000010 // ShiftLeft(1)=2
+ * ShiftLeft(0100000000000000)=1000000000000000
+ * ShiftLeft(1000000000000000)=0000000000000000
+ *
+ * This operation is (usually) equivalent to multiplying the input by 2.
+ * This definition is also called an arithmetic left-shift, and is useful for
+ * the efficient implementation of various operations which we will see later on
+ * in the course.
+ */
+
+CHIP ShiftLeft {
+    IN in[16];
+    OUT out[16];
+     
+    PARTS:
+    And(a=true, b=false, out=out[0]);
+	And(a=true, b=in[0], out=out[1]);
+	And(a=true, b=in[1], out=out[2]);
+	And(a=true, b=in[2], out=out[3]);
+	And(a=true, b=in[3], out=out[4]);
+	And(a=true, b=in[4], out=out[5]);
+	And(a=true, b=in[5], out=out[6]);
+	And(a=true, b=in[6], out=out[7]);
+	And(a=true, b=in[7], out=out[8]);
+	And(a=true, b=in[8], out=out[9]);
+	And(a=true, b=in[9], out=out[10]);
+	And(a=true, b=in[10], out=out[11]);
+	And(a=true, b=in[11], out=out[12]);
+	And(a=true, b=in[12], out=out[13]);
+	And(a=true, b=in[13], out=out[14]);
+	And(a=true, b=in[14], out=out[15]);
+}
