@@ -8,17 +8,4 @@ https://www.nand2tetris.org/
 
 # Repository Structure:
 
-nand2tetris/
-├── projects/
-│   ├── 01/   # Logic gates
-│   ├── 02/   # Combinational chips
-│   ├── 03/   # Sequential chips
-│   ├── 04/   # Machine language programs
-│   ├── 05/   # CPU implementation
-│   ├── 06/   # Assembler
-│   ├── 07/   # VM translator (part I)
-│   ├── 08/   # VM translator (part II)
-│   ├── 09/   # High-level programs
-│   ├── 10/   # Compiler (syntax analysis)
-│   ├── 11/   # Compiler (code generation)
-└── README.md
+<pre> ```text nand2tetris/ ├── projects/ │ ├── 01/ # Logic gates │ ├── 02/ # Combinational chips │ ├── 03/ # Sequential chips │ ├── 04/ # Machine language programs │ ├── 05/ # CPU implementation │ ├── 06/ # Assembler │ ├── 07/ # VM translator (part I) │ ├── 08/ # VM translator (part II) │ ├── 09/ # High-level programs │ ├── 10/ # Compiler (syntax analysis) │ ├── 11/ # Compiler (code generation) └── README.md ``` </pre>
