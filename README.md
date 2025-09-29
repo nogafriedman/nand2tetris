@@ -1,9 +1,9 @@
 # Nand2Tetris – Course Projects (2024)
 
-This repository contains my solutions to the Nand2Tetris course (Build a Modern Computer from First Principles), completed during my CS degree.
+This repository contains my solutions to the Nand2Tetris course (Build a Modern Computer from First Principles), completed during my CS degree.  
 The course walks through the process of building a complete computer system from the ground up — starting with a single logic gate (NAND) and culminating in a working hardware simulator, assembler, virtual machine, and high-level programming language.
 
-For more information on the course:
+For more information on the course:  
 https://www.nand2tetris.org/
 
 # Repository Structure
@@ -27,7 +27,7 @@ nand2tetris/
 # How to Use
 Each project folder (01–11) contains the implementation files and test scripts.
 You can run them using the Nand2Tetris tools (Hardware Simulator, CPU Emulator, Assembler, and VM Emulator) provided by the course:
-- - [Download tools](https://www.nand2tetris.org/software).
+- [Download tools](https://www.nand2tetris.org/software).
 - Follow the course’s project instructions for running .hdl, .asm, and .vm files.
 
 # Acknowledgments
