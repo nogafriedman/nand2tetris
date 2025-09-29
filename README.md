@@ -31,6 +31,6 @@ You can run them using the Nand2Tetris tools (Hardware Simulator, CPU Emulator, 
 - Follow the course’s project instructions for running .hdl, .asm, and .vm files.
 
 # Acknowledgments
-- Nisan & Schocken — creators of The Elements of Computing Systems (a.k.a. Nand2Tetris).
+- Based on *The Elements of Computing Systems* (Nisan & Schocken).
 - Course resources: [nand2tetris.org](nand2tetris.org)
 - Final grade: **94/100**
